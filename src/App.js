@@ -1,13 +1,18 @@
 import './App.css';
+import Layout from './components/Layout';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <Layout>
+          <Routes>
+           
+          </Routes>
+      </Layout>
+    </Router>
   );
 }
 
