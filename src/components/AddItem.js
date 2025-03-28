@@ -5,7 +5,7 @@ import ItemForm from "./ItemForm";
 function AddItem({ onAdd }) {
   const navigate = useNavigate();
 
-  function handleAdd(newBook) {
+  function handleAdd(newItem) {
     onAdd(newItem);
     navigate("/");
   }
