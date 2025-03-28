@@ -44,7 +44,15 @@ function ItemForm({ initialData , onSubmit})
               required
             />
           </div>
-          
+          <div className="mb-3 form-check">
+              <input
+                type="checkbox"
+                className="form-check-input"
+                checked={formData.status}
+                onChange={handleStatusChange}
+              />
+              <label className="form-check-label">Completed</label>
+            </div>
           <button type="submit" className="btn btn-primary">Save</button>
         </form>
       );
