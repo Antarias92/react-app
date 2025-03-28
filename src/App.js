@@ -1,7 +1,6 @@
 import './App.css';
 import { useState } from 'react';
 import Layout from './components/Layout';
-import ItemForm from './components/ItemForm';
 import ListItems from './components/ListItems';
 import EditItems from './components/EditItems';
 import AddItem from './components/AddItem';
@@ -20,13 +19,24 @@ function App() {
         setItems(items.filter((item) => item.id !== id));
   }
   
+  function addItem(item) {
+    const newItem = { ...item, id: Date.now() };
+    setItems([...items, newItem]);
+  }
   
+  function updateItem(updated){
+    setItems(items.map((item) => item.id === updated.id ? updated : item));
+  }
+
   return (
     <Router>
       <Layout>
           <Routes>
             <Route path="/" element={ <ListItems items={items} onDelete={deleteItem} /> }    />
 
+            <Route path="/add" element={ <AddItem onAdd={addItem} /> }    />
+
+            <Route path='/edit/:id' element ={<EditItems items = {items} onUpdate={updateItem}/>}/>
            
           </Routes>
       </Layout>
