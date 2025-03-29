@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import "./Contact.css";
 
 const Contact = () => {
     return(
-        <div className="container-fluid email_form">
+        <div className="container-fluid email_form col col-12 col-sm-6 offset-sm-3">
           <form action="https://formspree.io/f/xrbbnlrd" method="post">
             <div class="row">
                 <div class="col mb-3 form-floating">
@@ -19,11 +19,6 @@ const Contact = () => {
                     <label for="contact-email" class="form-label ms-3">E-mail</label>
                 </div>
                 <div class="mb-3">
-                    <select class="form-select mb-3" aria-label="Default select example">
-                        <option selected>Nature of this message</option>
-                        <option value="1">Professional</option>
-                        <option value="2">Casual</option>
-                      </select>
                       <label for="message" class="form-label">Message</label>
                       <textarea class="form-control" id="message" rows="4" name="message" required></textarea>
                 </div>

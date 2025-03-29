@@ -5,31 +5,29 @@ import "./Layout.css";
 function Layout({children}) 
 {
     return (
-         <div className="container mt-4">
-            <h3 className="text-center mb-4">To-Do List</h3>
-            <nav class="navbar navbar-expand-lg bg-tertiary">
-                <div class="container-fluid">
-                    
-                    <Link className="navbar-brand" to="/">List Manager</Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+         <div className="container mt-4 mx-auto">
+            <h1 className="text-center mb-4">To-Do List</h1>
+            <nav className="navbar navbar-expand-lg bg-dark">
+                <div className="container-fluid">
+                    <Link className="navbar-brand logo text-white" to="/"> List Manager</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavigation" aria-controls="headerNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto mb-lg-0">
-                        <li class="nav-item">
-                            <Link className="nav-link" to="/"> Home </Link>
-                        </li>
-                        <li class="nav-item">
-                            <Link className="nav-link" to="/add"> Add Item </Link>
-                        </li>
-                        <li class="nav-item">
-                            <Link className="nav-link" to="/Contact"> Contact </Link>
-                        </li>
-                        
-                    </ul>
+                    <div className="collapse navbar-collapse">
+                        <ul className="navbar-nav mx-auto mb-lg-0">
+                            <li class="nav-item menu-item">
+                                <Link className="nav-link text-white" to="/"> Home </Link>
+                            </li>
+                            <li className="nav-item menu-item">
+                                <Link className="nav-link" to="/add"> Add Item </Link>
+                            </li>
+                            <li className="nav-item menu-item">
+                                <Link className="nav-link" to="/Contact"> Contact </Link>
+                            </li>
+                        </ul>
                     </div>
-                    </div>
-                </nav>
+                </div>
+            </nav>
             {children}
          </div>   
     )
