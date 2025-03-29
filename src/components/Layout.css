@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: "Roboto", sans-serif;
+    background-color: #fbffff;
+    color: blue;
+}
+.button{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);;
+}

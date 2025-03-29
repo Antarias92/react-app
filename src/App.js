@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import ListItems from './components/ListItems';
 import EditItems from './components/EditItems';
 import AddItem from './components/AddItem';
+import Contact from './components/Contact';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,6 +38,8 @@ function App() {
             <Route path="/add" element={ <AddItem onAdd={addItem} /> }    />
 
             <Route path='/edit/:id' element ={<EditItems items = {items} onUpdate={updateItem}/>}/>
+
+            <Route path='/Contact' element={<Contact/>} />
            
           </Routes>
       </Layout>

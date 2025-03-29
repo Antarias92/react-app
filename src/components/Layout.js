@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Layout.css";
 
 function Layout({children}) 
 {
     return (
          <div className="container mt-4">
             <h3 className="text-center mb-4">To-Do List</h3>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-tertiary">
                 <div class="container-fluid">
                     
                     <Link className="navbar-brand" to="/">List Manager</Link>
@@ -22,7 +23,7 @@ function Layout({children})
                             <Link className="nav-link" to="/add"> Add Item </Link>
                         </li>
                         <li class="nav-item">
-                            <Link className="nav-link" to="/contact"> Contact </Link>
+                            <Link className="nav-link" to="/Contact"> Contact </Link>
                         </li>
                         
                     </ul>
