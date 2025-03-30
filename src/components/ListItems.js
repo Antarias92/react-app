@@ -20,7 +20,7 @@ function ListItems({items , onDelete}){
             </div>
             <div className="table-responsive mt-4">
                 <table className="table table-bordered">
-                <thead className="table-primary">
+                <thead className="table-dark">
                     <tr>
                         <th>Item Name</th>
                         <th>Description</th>

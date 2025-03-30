@@ -41,11 +41,11 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: #426e6f;
+  color: white;
 }
 
 .App{
-  background-color: #426e6f;
+  background-color: #12343d;
  
   padding-bottom: 5%;
   font-family: 'Permanent Marker', sans-serif;
@@ -54,10 +54,7 @@
 .navbar{
   text-transform: uppercase;
   margin-bottom: 10px;
-  background-color: #426e6f;
-}
-.navbar-brand{
-  background: green;
+  
 }
 
 .nav-link{
@@ -69,22 +66,18 @@
 }
 
 .container{
-  background-color: #426e6f;
+  background-color: #12343d;
   border-radius: 10px;
   
 }
 
 .bgNav{
-  background-color: #426e6f;
+  background-color: #12343d;
 }
 
 .btn{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-}
-
-.table{
-  background-color: purple;
 }
 
 .dropMenu{
@@ -95,6 +88,6 @@
 
 h1{
   padding-top: 10px;
-  background-color: #426e6f;
+  background-color: #12343d;
   font-family: 'Permanent Marker', sans-serif;
 }
