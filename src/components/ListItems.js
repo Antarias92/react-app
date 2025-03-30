@@ -11,8 +11,8 @@ function ListItems({items , onDelete}){
 
     return (
         <div>
-            <div className="mb-2 mt-2 col-3">
-                <select className="form-select" onChange={(e => setFilterStatus(e.target.value))}>
+            <div className="mb-2 mt-2 col-3 dropMenu">
+                <select className="form-select dropMenu" onChange={(e => setFilterStatus(e.target.value))}>
                 <option value ="All">All</option>
                 <option value ="Completed">Completed</option>
                 <option value ="Incomplete">Incomplete</option>
@@ -35,8 +35,8 @@ function ListItems({items , onDelete}){
                             <td>{item.description}</td>
                             <td>{item.status === true ? "Completed" : "Incomplete"}</td>
                             <td>
-                                <Link className="btn btn-warning btn-sm me-2" to={`/edit/${item.id}`}>Edit</Link>
-                                <button className="btn btn-danger btn-sm me-2" onClick={() => onDelete(item.id)}>Delete</button>
+                                <Link className="btn btn-warning btn-md me-2" to={`/edit/${item.id}`}>Edit</Link>
+                                <button className="btn btn-danger btn-md me-2" onClick={() => onDelete(item.id)}>Delete</button>
                                 
                             </td>
                         </tr>

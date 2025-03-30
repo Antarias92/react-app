@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
   background-color: blue;
 }
@@ -36,4 +36,65 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #426e6f;
+}
+
+.App{
+  background-color: #426e6f;
+ 
+  padding-bottom: 5%;
+  font-family: 'Permanent Marker', sans-serif;
+}
+
+.navbar{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: #426e6f;
+}
+.navbar-brand{
+  background: green;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar-toggler{
+  background-color: white;
+}
+
+.container{
+  background-color: #426e6f;
+  border-radius: 10px;
+  
+}
+
+.bgNav{
+  background-color: #426e6f;
+}
+
+.btn{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.table{
+  background-color: purple;
+}
+
+.dropMenu{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  background-color: white;
+}
+
+h1{
+  padding-top: 10px;
+  background-color: #426e6f;
+  font-family: 'Permanent Marker', sans-serif;
 }
