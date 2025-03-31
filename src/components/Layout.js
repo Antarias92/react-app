@@ -5,7 +5,7 @@ function Layout({children})
 {
     return (
          <div className="container mt-4 mx-auto bgNav">
-            <h1 className="text-center mb-4">To-Do List</h1>
+            <h1 className="text-center mb-4 text-white">To-Do List</h1>
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand logo text-white" to="/"> List Manager</Link>

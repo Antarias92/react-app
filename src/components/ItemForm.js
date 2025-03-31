@@ -16,7 +16,7 @@ function ItemForm({ initialData , onSubmit})
     function handleStatusChange(){
       setFormData({...formData, status: !formData.status});
       if(!formData.status){
-        alert("Status Changed");
+        alert("You have completed: " + formData.itemName);
       }
     }
     

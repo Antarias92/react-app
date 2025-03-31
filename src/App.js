@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [items , setItems] = useState([
-    {id : 1, itemName: "Example" , description: "delete me", status: false}
+    {id : 1, itemName: "Example" , description: "Edit, complete, or delete me", status: false}
   ])
   
   function deleteItem(id)
