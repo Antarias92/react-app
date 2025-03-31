@@ -41,11 +41,11 @@
 *{
   margin: 0;
   padding: 0;
-  color: white;
+  
 }
 
 .App{
-  background-color: #12343d;
+  background-color: #7b3947;
  
   padding-bottom: 5%;
   font-family: 'Permanent Marker', sans-serif;
@@ -66,13 +66,13 @@
 }
 
 .container{
-  background-color: #12343d;
+  background-color: #7b3947;
   border-radius: 10px;
   
 }
 
 .bgNav{
-  background-color: #12343d;
+  background-color: #7b3947;
 }
 
 .btn{
@@ -83,11 +83,11 @@
 .dropMenu{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-  background-color: white;
 }
 
 h1{
   padding-top: 10px;
-  background-color: #12343d;
+  background-color: #7b3947;
   font-family: 'Permanent Marker', sans-serif;
+  color: white;
 }
