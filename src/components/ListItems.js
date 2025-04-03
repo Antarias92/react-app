@@ -35,8 +35,8 @@ function ListItems({items , onDelete}){
                             <td>{item.description}</td>
                             <td>{item.status === true ? "Completed" : "Incomplete"}</td>
                             <td>
-                                <Link className="btn btn-warning btn-md me-2" to={`/edit/${item.id}`}>Edit</Link>
-                                <button className="btn btn-danger btn-md me-2" onClick={() => onDelete(item.id)}>Delete</button>
+                                <Link className="btn btn-warning btn-sm me-2" to={`/edit/${item.id}`}>Edit</Link>
+                                <button className="btn btn-danger btn-sm me-2" onClick={() => onDelete(item.id)}>Delete</button>
                                 
                             </td>
                         </tr>

@@ -9,10 +9,10 @@ function Layout({children})
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand logo text-white" to="/"> List Manager</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavigation" aria-controls="headerNavigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon bg-white"></span>
                     </button>
-                    <div className="collapse navbar-collapse">
+                    <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto mb-lg-0">
                             <li class="nav-item menu-item">
                                 <Link className="nav-link text-white" to="/"> Home </Link>
