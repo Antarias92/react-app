@@ -1,5 +1,5 @@
 Anthony Arias
-https://antarias92.github.io/ 
+https://github.com/Antarias92/react-app/ 
 https://antarias92.github.io/react-app/ 
 
 Project Overview
