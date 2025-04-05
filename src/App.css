@@ -73,7 +73,10 @@
 
 .bgNav{
   background-color: #7b3947;
+  color: white;
 }
+
+
 
 .btn{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);

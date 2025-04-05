@@ -19,7 +19,7 @@ const Contact = () => {
                     <label for="contact-email" class="form-label ms-3">E-mail</label>
                 </div>
                 <div class="mb-3">
-                      <label for="message" class="form-label">Message</label>
+                      <label for="message" class="form-label" style={{color:"white"}}>Message</label>
                       <textarea class="form-control" id="message" rows="4" name="message" required></textarea>
                 </div>
                 <div class="mb-3 form-check d-grid col-6 mx-auto">
