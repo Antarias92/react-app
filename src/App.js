@@ -14,7 +14,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const initialState = {
   items: [
-      {id: 1, itemName: "Example", description: "Edit, Complete, or Delete me", status: false}
+      {id: 1, itemName: "Example", description: "Edit, Complete (under edit), or Delete me", status: false}
   ]
 };
 

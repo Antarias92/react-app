@@ -46,7 +46,6 @@
 
 .App{
   background-color: #7b3947;
- 
   padding-bottom: 5%;
   font-family: 'Permanent Marker', sans-serif;
 }
@@ -54,7 +53,6 @@
 .navbar{
   text-transform: uppercase;
   margin-bottom: 10px;
-  
 }
 
 .nav-link{
@@ -68,15 +66,12 @@
 .container{
   background-color: #7b3947;
   border-radius: 10px;
-  
 }
 
 .bgNav{
   background-color: #7b3947;
   color: white;
 }
-
-
 
 .btn{
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
